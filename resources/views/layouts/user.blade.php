@@ -8,6 +8,7 @@
     <title>{{config('app.name')}}</title>
     <meta name="csrf-token" content="{{csrf_token()}}">
     <link rel="stylesheet" href="{{asset('bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
 </head>
 
@@ -15,17 +16,31 @@
 
 
 <body>
-    <!-- header -->
+    <!-- Header logo -->
     <div class="container-fluid">
+        <div class="row header-big">
+            <div class="col-lg-2 col-12 logo">
+                <a href="./">
+                    <img src="{{asset('images/logo/CSC.png')}}" />
+                </a>
+            </div>
+            <div class="col-lg-10 col-12 header">
 
+                <div class="csttc">ວິທະຍາໄລຄູສົງຈຳປາສັກ</div>
+
+                <div class="vision">
+                    ຮຽນຮູ້ດີ ມີວິໄນ ຮູ້ນຳໃຊ້ຫຼັກວິຊາການສຶບສານວັດທະນະທຳຂອງຊາດ
+                </div>
+
+            </div>
+        </div>
     </div>
-
 
     <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">CSTTC</a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -54,9 +69,9 @@
                             ແຫຼ່ງການຮຽນຮູ້
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">ພູດທະສາສະໜາ</a></li>
-                            <li><a class="dropdown-item" href="#">ພາສາອັງກິດ</a></li>
-                            <li><a class="dropdown-item" href="#">ພາສາລາວ-ວັນນະຄະດີ</a></li>
+                            <li><a class="dropdown-item" href="#">ຜົນງານທາງວິຊາການ</a></li>
+                            <li><a class="dropdown-item" href="#">ຫ້ອງຄອມພີວເຕີ</a></li>
+                            <li><a class="dropdown-item" href="#">ໜັງສືໃບລາ</a></li>
 
                         </ul>
                     </li>
@@ -65,9 +80,10 @@
                             TEMIS
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">ພູດທະສາສະໜາ</a></li>
-                            <li><a class="dropdown-item" href="#">ພາສາອັງກິດ</a></li>
-                            <li><a class="dropdown-item" href="#">ພາສາລາວ-ວັນນະຄະດີ</a></li>
+                            <li><a class="dropdown-item" href="#">ລາຍງານກົມສ້າງຄູ</a></li>
+                            <li><a class="dropdown-item" href="#">ລາຍງານທົ່ວໄປ</a></li>
+                            <li><a class="dropdown-item" href="#">ຂໍ້ມູນພະນັກງານ</a></li>
+                            <li><a class="dropdown-item" href="#">ຄະແນນນັກສຶກສາ</a></li>
 
                         </ul>
                     </li>
@@ -76,9 +92,10 @@
                             ເອກະສານ
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">ພູດທະສາສະໜາ</a></li>
-                            <li><a class="dropdown-item" href="#">ພາສາອັງກິດ</a></li>
-                            <li><a class="dropdown-item" href="#">ພາສາລາວ-ວັນນະຄະດີ</a></li>
+                            <li><a class="dropdown-item" href="#">ດຳລັດ</a></li>
+                            <li><a class="dropdown-item" href="#">ຂໍ້ຕົກລົງ</a></li>
+                            <li><a class="dropdown-item" href="#">ແຈ້ງການ</a></li>
+                            <li><a class="dropdown-item" href="#">ຄູ່ມື້ຕ່າງໆ</a></li>
 
                         </ul>
                     </li>
@@ -87,9 +104,11 @@
                             ກ່ຽວກັບ ວຄສຈ
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">ພູດທະສາສະໜາ</a></li>
-                            <li><a class="dropdown-item" href="#">ພາສາອັງກິດ</a></li>
-                            <li><a class="dropdown-item" href="#">ພາສາລາວ-ວັນນະຄະດີ</a></li>
+                            <li><a class="dropdown-item" href="#">ປະຫວັດຄວາມເປັນມ</a></li>
+                            <li><a class="dropdown-item" href="#">ວິໃສທັດ-ພາລະກິດ</a></li>
+                            <li><a class="dropdown-item" href="#">ໂຄງຮ່າງການຈັດຕັ້ງ</a></li>
+                            <li><a class="dropdown-item" href="#">ຕຳແໜ່ງວິຊາການ</a></li>
+                            <li><a class="dropdown-item" href="#">ຕິດຕໍ່ພົວພັນ</a></li>
 
                         </ul>
                     </li>
