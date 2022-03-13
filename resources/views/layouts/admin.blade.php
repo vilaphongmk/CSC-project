@@ -120,7 +120,119 @@
 
     @yield('content')
 
-    <!-- footer -->
+    <!--  footer -->
+    <div class="container-fluid ">
+        <div class="row footer pt-4">
+            <div class="col-lg-4 col-12">
+                <div class="websites">
+                    <div class="title-footer">ເວບໄຊອື່ນໆ</div>
+                    <div class="sub-footer">
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ກະຊວງສຶກສາທິການ ແລະ ກິລາ</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i> &nbsp;ກົມສ້າງຄູ</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ກົມກິດຈະການນັກສຶກສາ</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ວິທະຍາໄລສົງອົງຕື້</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ວິທະຍາໄລຄູປາກເຊ</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ມະຫາວິທະຍາໄລຈຳປາສັກ</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ມະຫາວິທະຍາໄລແຫ່ງຊາດ</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="websites">
+                    <div class="title-footer">ເວບໄຊອື່ນໆ</div>
+                    <div class="sub-footer">
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ກະຊວງສຶກສາທິການ ແລະ ກິລາ</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i> &nbsp;ກົມສ້າງຄູ</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ກົມກິດຈະການນັກສຶກສາ</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ວິທະຍາໄລສົງອົງຕື້</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ວິທະຍາໄລຄູປາກເຊ</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ມະຫາວິທະຍາໄລຈຳປາສັກ</a>
+                        </p>
+                        <p>
+                            <a href=""><i class="fas fa-angle-double-right"></i>
+                                &nbsp;ມະຫາວິທະຍາໄລແຫ່ງຊາດ</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="contract">
+                    <div class="title-footer">ປະສານງານ</div>
+                    <div class="sub-footer">
+                        <h5>ຫ້ອງການບໍລິຫານ, ວິທະຍາໄລຄູສົງຈຳປາສັກ ວັດຫຼວງປາກເຊ</h5>
+                        <p>
+                            <a href="https://www.facebook.com/LFOoC/" target="_blank">
+                                <i class="fab fa-facebook"></i>&nbsp; Facebook</a>
+                        </p>
+                        <p>
+                            <a href="#"><i class="fas fa-globe"></i>&nbsp; Website: CSTTC.edu.la</a>
+                        </p>
+                        <p>
+                            <a href="mailto:email.com"><i class="fas fa-envelope"></i>&nbsp; Email:
+                                csttc@gmail.com</a>
+                        </p>
+                        <p>
+                            <a href="tel:031410029"><i class="fas fa-phone-square-alt"></i>&nbsp; Tel : 031 41 00
+                                29</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bar">
+        <p>
+            @ 2021 Champasak Sangha Teacher Taining College. Design by: Vilaphong &
+            Develop by: Sonephet
+        </p>
+    </div>
+
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/68182a35eb.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
     <script src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
 </body>
 
