@@ -24,14 +24,21 @@
 .csttc{
  font-size: 2rem;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 .logo{
     display: grid;
     justify-content: center;
 }
 .topic{
     text-align: center;
-  
+    font-size: 1.6rem;
+}
+}
+@media only screen and (max-width: 576px) {
+
+.topic{
+    text-align: center;
+    font-size: .8rem;
 }
 }
 
