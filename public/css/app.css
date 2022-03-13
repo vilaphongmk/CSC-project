@@ -8,80 +8,36 @@
     box-sizing: border-box;
     font-family: Noto;
 }
-                /* header */
-.header{
-    background-color: beige;
-    height: 150px;
-}
+
+/* header */
 .logo{
     display: grid;
     justify-content: end;
-    
 }
 .logo img{
     height: 130px;
-
 }
 .topic{
- 
  color: #2c09f5;
- 
+
 }
 .csttc{
  font-size: 2rem;
-
+}
+@media only screen and (max-width: 991px) {
+.logo{
+    display: grid;
+    justify-content: center;
+}
+.topic{
+    text-align: center;
+  
+}
 }
 
-@media only screen and (max-width: 991px) {
-
-   .logo{
-    display: grid;
-    justify-content: center;
-    
-    }
-    .logo img{
-    height: 130px;
-
-    }
-    .topic{
-    display: grid;
-    text-align: center;
-
-    }
-    
-  }
-  @media only screen and (max-width: 600px) {
-
-   .logo{
-    display: grid;
-    justify-content: center;
-    
-    }
-    .logo img{
-    height: 130px;
-
-    }
-    .topic{
-    display: grid;
-    text-align: center;
-
-    }
-   .topic.topic{
-     display: grid;
-    text-align: center;
-    font-size: .8rem;
-
-    }
-    {
-    display: grid;
-    text-align: center;
-
-    }
-
-  }
-                          /* navbar */
+ /* navbar */
 .dropdown-item{
-    color: blueviolet;
+    color: #066e0b;
 }
 .nav-link{
     color: blue!important;

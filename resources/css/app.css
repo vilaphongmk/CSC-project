@@ -8,3 +8,37 @@
     box-sizing: border-box;
     font-family: Noto;
 }
+
+/* header */
+.logo{
+    display: grid;
+    justify-content: end;
+}
+.logo img{
+    height: 130px;
+}
+.topic{
+ color: #2c09f5;
+
+}
+.csttc{
+ font-size: 2rem;
+}
+@media only screen and (max-width: 991px) {
+.logo{
+    display: grid;
+    justify-content: center;
+}
+.topic{
+    text-align: center;
+  
+}
+}
+
+ /* navbar */
+.dropdown-item{
+    color: #066e0b;
+}
+.nav-link{
+    color: blue!important;
+}

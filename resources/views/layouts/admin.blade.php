@@ -24,7 +24,7 @@
                     <img src="{{asset('images/logo/CSC.png')}}" />
                 </a>
             </div>
-            <div class="col-lg-10 col-sm-12 align-self-center topic">
+            <div class="col-lg-10 col-sm-12 topic">
 
                 <div class="csttc">ວິທະຍາໄລຄູສົງຈຳປາສັກ</div>
 
