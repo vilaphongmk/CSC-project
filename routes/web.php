@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\User\AboutUserController;
-
+use App\Http\Controllers\admin\AdminAboutController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/index', [AboutUserController::class, 'Index'])->name('user.about.index');
+Route::get('/home', [AdminAboutController::class, 'Home'])->name('admin.about.home');
