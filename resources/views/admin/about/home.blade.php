@@ -31,16 +31,72 @@
 
     </div>
     <div class="item2">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div class="card" style="width: 12rem;">
+            <a href=""><img src="{{asset('images/images slide/p.jpg')}}" class="card-img-top" alt="...">
+                <h6 class="card-title ">title</h6>
+            </a>
+        </div>
+        <div class="card" style="width: 12rem;">
+            <a href=""><img src="{{asset('images/images slide/p.jpg')}}" class="card-img-top" alt="...">
+                <h6 class="card-title ">title</h6>
+            </a>
+        </div>
+        <div class="card" style="width: 12rem;">
+            <a href=""><img src="{{asset('images/images slide/p.jpg')}}" class="card-img-top" alt="...">
+                <h6 class="card-title ">title</h6>
+            </a>
+        </div>
+        <div class="card" style="width: 12rem;">
+            <a href=""><img src="{{asset('images/images slide/p.jpg')}}" class="card-img-top" alt="...">
+                <h6 class="card-title ">title</h6>
+            </a>
+        </div>
+        <div class="card" style="width: 12rem;">
+            <a href=""><img src="{{asset('images/images slide/p.jpg')}}" class="card-img-top" alt="...">
+                <h6 class="card-title ">title</h6>
+            </a>
+        </div>
+        <div class="card" style="width: 12rem;">
+            <a href=""><img src="{{asset('images/images slide/p.jpg')}}" class="card-img-top" alt="...">
+                <h6 class="card-title ">title</h6>
+            </a>
+        </div>
+
+
     </div>
-    <div class="item3">
-    </div>
+
 </div>
 
+<!-- news -->
+
+<div class="container news-box">
+    <div class="heading-news mt-3"> ຂ່າວສານ</div>
+    <div class="card text-center h-200">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="true" href="#">ຂ່າວໃໝ່</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ແຈ້ງການ</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="line-group my-5">
+            <div class="line"></div>
+            <a href="news.php">
+                <div class="link-to-news">
+                    <i class="fas fa-hand-point-right"></i> ອ່ານຂ່າວ ທັງໝົດ
+                    <div class="news"></div>
+                </div>
+            </a>
+            <div class="line"></div>
+        </div>
+
+
+    </div>
+</div>
 
 @endsection

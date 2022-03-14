@@ -98,13 +98,13 @@
 /* slides */
 
 .box-slider{
-    height: 550px;
+    height: 450px;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 450px 100px;
-    height: 550px;
+    grid-template-rows: 450px;
     margin: 0 auto;
     padding: 0 auto;
+    
 }
 .item1{
     grid-column: 1/9;
@@ -113,16 +113,116 @@
 
 .item2{
     grid-column: 9/13;
-    grid-row: 1/3;
     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
 
 }
-.item3{
-    background-color: #f14fce;
-    grid-column: 1/11;
 
-}
 .carousel-item img{
-    height: 450px;
+    
+    height: 28rem; 
     width: 100%;
 }
+.card{
+    height: 9.3rem;
+    border-radius: solid 10px red;
+    text-align: center;
+}
+.card a{
+    text-decoration: none;
+}
+
+
+/* news */
+.heading-news{
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+.news-box{
+    height: 15rem;
+}
+
+
+a.card {
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.title-news-small {
+    bottom: 0;
+    color: #0940d6;
+    padding: 0 5px;
+    /* break word */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+
+
+a.card-news-view {
+    text-decoration: none;
+    height: inherit;
+}
+
+a.card-news-view .row {
+    padding: 13px 0;
+    transition: .2s ease-in-out;
+}
+
+a.card-news-view:hover .row {
+    box-shadow: 0px 0px 6px 2px #fc7b038a;
+    padding: 13px 0;
+    transition: .2s ease-in-out;
+}
+
+.detail-news-small-view {
+    color: #054fa3;
+    /* break word */
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.line-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.line-group .line {
+    border: #fc7b03 solid 1px;
+    width: 100%;
+}
+
+.line-group a {
+    text-decoration: none;
+    color: #d34208;
+}
+
+.line-group:hover a {
+    border-radius: 40px;
+    background-color: #df6b0c17;
+    color: #d34208;
+}
+
+.line-group .link-to-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+    border-radius: 40px;
+    border: 1px solid #fc7b03;
+    padding: .5rem 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
