@@ -120,19 +120,31 @@
 }
 
 .carousel-item img{
-    
     height: 28rem; 
     width: 100%;
 }
 .card{
     height: 9.3rem;
-    border-radius: solid 10px red;
+    width:100%;
     text-align: center;
 }
 .card a{
     text-decoration: none;
 }
+@media only screen and (max-width: 576px) {
+    .carousel-item img{
+    height: 9rem; 
+    width: 100%;
+    }
 
+}
+@media only screen and (max-width: 992px) {
+    .carousel-item img{
+    height: 20rem; 
+    width: 100%;
+    }
+
+}
 
 /* news */
 .heading-news{
@@ -142,15 +154,11 @@
 .news-box{
     height: 15rem;
 }
-
-
 a.card {
     margin-top: 10px;
     text-decoration: none;
     padding: 7px;
 }
-
-
 .line-group {
     display: flex;
     align-items: center;
