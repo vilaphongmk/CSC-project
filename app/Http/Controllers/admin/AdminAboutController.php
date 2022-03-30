@@ -9,6 +9,6 @@ class AdminAboutController extends Controller
 {
     public function Home()
     {
-        return view('admin.about.home');
+        return view('admin.home');
     }
 }
